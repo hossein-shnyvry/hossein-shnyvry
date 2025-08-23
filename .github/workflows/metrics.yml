@@ -1,8 +1,9 @@
-name: Metrics
+name: GitHub Metrics
+
 on:
-  schedule:
-    - cron: "0 * * * *" # هر یک ساعت یکبار آپدیت میشه
-  workflow_dispatch: # اجرای دستی
+  schedule: # اجرا به صورت زمان‌بندی‌شده
+    - cron: "0 */12 * * *"
+  workflow_dispatch: # اجرا دستی
 
 jobs:
   github-metrics:
@@ -11,6 +12,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: github-metrics.svg
-          config: classic
-          base: header, repositories
+          user: hossein-shnyvry
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Tehran
