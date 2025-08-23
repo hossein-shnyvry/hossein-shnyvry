@@ -1,0 +1,16 @@
+name: Metrics
+on:
+  schedule:
+    - cron: "0 * * * *" # هر یک ساعت یکبار آپدیت میشه
+  workflow_dispatch: # اجرای دستی
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: github-metrics.svg
+          config: classic
+          base: header, repositories
