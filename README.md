@@ -28,6 +28,8 @@ Beyond development, I actively organize **AI workshops, webinars, and training s
 
 ---
 
+![Metrics](./github-metrics.svg)
+
 ### 📊 GitHub Stats
 
 ![Hossein's GitHub stats](https://github-readme-stats.vercel.app/api?username=hosseinshnyvry&show_icons=true&theme=gruvbox)
