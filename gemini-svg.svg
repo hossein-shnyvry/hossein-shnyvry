@@ -2,9 +2,9 @@
   <style>
     /* استایل‌های تم تاریک (پیش‌فرض) */
     .name { font: 800 36px 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; fill: #FFFFFF; }
-    .title { font: 700 13px 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; fill: #F0F6FC; letter-spacing: 1.5px; text-transform: uppercase; }
+    .title { font: 700 13px 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; fill: #FFFFFF; letter-spacing: 1.5px; text-transform: uppercase; }
     .desc { font: 400 13px 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; fill: #C9D1D9; }
-    .bold { font-weight: 700; fill: #FFFFFF; }
+    .bold { font-weight: 700; fill: #C9D1D9; }
     .line-main { stroke: #484F58; }
     .line-yellow { stroke: #D69E2E; }
 
@@ -12,31 +12,28 @@
     @media (prefers-color-scheme: light) {
       .name { fill: #1F2328; }
       .title { fill: #1F2328; }
-      .desc { fill: #57606A; }
-      .bold { fill: #000000; }
+      .desc { fill: #24292F; }
+      .bold { font-weight: 700; fill: #24292F; }
       .line-main { stroke: #24292F; }
       .line-yellow { stroke: #D69E2E; }
     }
   </style>
 
-  <!-- ۱. نام و نام خانوادگی (سمت چپ) -->
-  <text x="180" y="80" text-anchor="end" class="name">HOSSEIN</text>
-  <text x="180" y="118" text-anchor="end" class="name">SHNYVRY</text>
+  <!-- ۱. نام و نام خانوادگی (تراز شده دقیقاً در مرکز عمودی) -->
+  <text x="180" y="92" text-anchor="end" class="name">HOSSEIN</text>
+  <text x="180" y="130" text-anchor="end" class="name">SHNYVRY</text>
 
   <!-- ۲. خطوط عمودی جداکننده -->
-  <!-- خط خاکستری اصلی (ارتفاع کامل) -->
   <line x1="200" y1="15" x2="200" y2="165" stroke-width="2" class="line-main" />
-  
-  <!-- خط زرد/طلایی (شروع از بالای عنوان تا پایین) -->
   <line x1="206" y1="22" x2="206" y2="165" stroke-width="5" stroke-linecap="square" class="line-yellow" />
 
-  <!-- ۳. عناوین و توضیحات (سمت راست) -->
+  <!-- ۳. عناوین و توضیحات (یکرنگ با کلمات کلیدی بولد شده) -->
   <text x="225" y="32" class="title">FULL-STACK DEVELOPER | AI ENTHUSIAST | PROJECT MANAGER | ENTREPRENEUR</text>
 
   <text x="225" y="62" class="desc">I’m an independent full-stack developer, project manager, and entrepreneur, building <tspan class="bold">digital platforms and solutions step by step</tspan>.</text>
-  <text x="225" y="82" class="desc">From designing and developing <tspan class="bold">web &amp; mobile applications</tspan> to creating <tspan class="bold">AI-driven platforms, flight booking systems,</tspan></text>
+  <text x="225" y="82" class="desc">From designing and developing <tspan class="bold">web &amp; mobile applications</tspan> to creating <tspan class="bold">AI-driven platforms</tspan>, <tspan class="bold">flight booking systems</tspan>,</text>
   <text x="225" y="102" class="desc">and <tspan class="bold">crypto payment gateways</tspan>, I focus on <tspan class="bold">solving real-world problems with technology</tspan>.</text>
 
-  <text x="225" y="135" class="desc">I’m the founder of <tspan class="bold">InOffice</tspan>, a company specialized in <tspan class="bold">web &amp; app development, AI solutions, and digital innovation</tspan>.</text>
+  <text x="225" y="135" class="desc">I’m the founder of <tspan class="bold">InOffice</tspan>, a company specialized in <tspan class="bold">web &amp; app development</tspan>, <tspan class="bold">AI solutions</tspan>, and <tspan class="bold">digital innovation</tspan>.</text>
   <text x="225" y="155" class="desc">I also organize <tspan class="bold">AI workshops, webinars, and training sessions</tspan> to help businesses adopt <tspan class="bold">modern technologies efficiently</tspan>.</text>
 </svg>
