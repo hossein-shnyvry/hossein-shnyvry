@@ -1,0 +1,126 @@
+<svg fill="none" width="980" height="460" viewBox="0 0 980 460" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    /* استایل‌های تم تاریک (پیش‌فرض گیت‌هاب) */
+    .title-text { font: 700 22px 'Georgia', 'Times New Roman', serif; fill: #FFFFFF; letter-spacing: 2.5px; text-transform: uppercase; }
+    .header-line { stroke: #30363D; stroke-width: 1.5; }
+    .timeline-axis { stroke: #30363D; stroke-width: 2; }
+    .dot { fill: #D69E2E; stroke: #0D1117; stroke-width: 3; }
+
+    .left-label { font: 700 13px 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; fill: #8B949E; text-anchor: end; }
+    .item-title { font: 700 16px 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; fill: #FFFFFF; }
+    .item-desc { font: 400 13px 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; fill: #8B949E; }
+
+    .project-icon { fill: #D69E2E; }
+
+    /* شکل فلش ریبون (Badge) */
+    .tag-bg { fill: #161B22; stroke: #30363D; stroke-width: 1; }
+    .tag-text { font: 700 11px 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; fill: #D69E2E; text-anchor: middle; letter-spacing: 1px; }
+
+    /* تنظیمات خودکار برای تم روشن (Light Mode) */
+    @media (prefers-color-scheme: light) {
+      .title-text { fill: #1F2328; }
+      .header-line { stroke: #D0D7DE; }
+      .timeline-axis { stroke: #D0D7DE; }
+      .dot { stroke: #FFFFFF; }
+      .left-label { fill: #57606A; }
+      .item-title { fill: #1F2328; }
+      .item-desc { fill: #57606A; }
+      .tag-bg { fill: #F6F8FA; stroke: #D0D7DE; }
+    }
+  </style>
+
+  <!-- ۱. هدر بخش -->
+  <g transform="translate(15, 25)">
+    <g stroke="#D69E2E" stroke-width="2" fill="none">
+      <rect x="0" y="0" width="20" height="24" rx="2" />
+      <path d="M4 6h12M4 11h12M4 16h7" />
+    </g>
+    <text x="34" y="19" class="title-text">FEATURED PROJECTS</text>
+    <line x1="0" y1="36" x2="950" y2="36" class="header-line" />
+  </g>
+
+  <!-- ۲. خط عمودی تایم‌لاین -->
+  <line x1="190" y1="90" x2="190" y2="400" class="timeline-axis" />
+
+  <!-- ================= آیتم‌های پروژه ================= -->
+
+  <!-- ۱. Flight & Train Booking -->
+  <g transform="translate(0, 95)">
+    <text x="170" y="5" class="left-label">Travel Tech</text>
+    <circle cx="190" cy="0" r="6" class="dot" />
+    
+    <!-- ترکیب آیکون و تیتر در یک خط افقی -->
+    <g transform="translate(215, -14)">
+      <path class="project-icon" transform="scale(0.8)" d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/>
+      <text x="26" y="14" class="item-title">Flight &amp; Train Booking Platform</text>
+    </g>
+    <text x="215" y="24" class="item-desc">Integrated with GDS systems (Sabre / Amadeus) for real-time ticketing</text>
+    
+    <polygon points="840,-12 930,-12 930,10 840,10 828,-1" class="tag-bg" />
+    <text x="882" y="3" class="tag-text">GDS API</text>
+  </g>
+
+  <!-- ۲. Crypto Payment Gateway -->
+  <g transform="translate(0, 170)">
+    <text x="170" y="5" class="left-label">Fintech</text>
+    <circle cx="190" cy="0" r="6" class="dot" />
+    
+    <!-- ترکیب آیکون و تیتر در یک خط افقی -->
+    <g transform="translate(215, -14)">
+      <path class="project-icon" transform="scale(0.8)" d="M20 4H4c-1.11 0-1.99.89-1.99 2L2 18c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V6c0-1.11-.89-2-2-2zm0 14H4v-6h16v6zm0-10H4V6h16v2z"/>
+      <text x="26" y="14" class="item-title">Crypto Payment Gateway</text>
+    </g>
+    <text x="215" y="24" class="item-desc">Next.js + Node.js + MongoDB, similar to OxaPay solution</text>
+    
+    <polygon points="840,-12 930,-12 930,10 840,10 828,-1" class="tag-bg" />
+    <text x="882" y="3" class="tag-text">FULL-STACK</text>
+  </g>
+
+  <!-- ۳. AI Agent with n8n -->
+  <g transform="translate(0, 245)">
+    <text x="170" y="5" class="left-label">AI Automation</text>
+    <circle cx="190" cy="0" r="6" class="dot" />
+    
+    <!-- ترکیب آیکون و تیتر در یک خط افقی -->
+    <g transform="translate(215, -14)">
+      <path class="project-icon" transform="scale(0.8)" d="M12 2a2 2 0 0 1 2 2v1a7 7 0 0 1 7 7v6a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3v-6a7 7 0 0 1 7-7V4a2 2 0 0 1 2-2zm-5 10a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm10 0a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+      <text x="26" y="14" class="item-title">AI Agent with n8n</text>
+    </g>
+    <text x="215" y="24" class="item-desc">Travel assistant: Hotels, Flights, Destination Ideas, Trip Support</text>
+    
+    <polygon points="840,-12 930,-12 930,10 840,10 828,-1" class="tag-bg" />
+    <text x="882" y="3" class="tag-text">N8N / AI</text>
+  </g>
+
+  <!-- ۴. Educational Game -->
+  <g transform="translate(0, 320)">
+    <text x="170" y="5" class="left-label">EdTech &amp; Game</text>
+    <circle cx="190" cy="0" r="6" class="dot" />
+    
+    <!-- ترکیب آیکون و تیتر در یک خط افقی -->
+    <g transform="translate(215, -14)">
+      <path class="project-icon" transform="scale(0.8)" d="M21 6H3c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-10 7H9v2H7v-2H5v-2h2V9h2v2h2v2zm4.5 2c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm3-3c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/>
+      <text x="26" y="14" class="item-title">Story-Based Educational Game</text>
+    </g>
+    <text x="215" y="24" class="item-desc">Designed for kids (5–9 y/o), inspired by "Where is My Dad?"</text>
+    
+    <polygon points="840,-12 930,-12 930,10 840,10 828,-1" class="tag-bg" />
+    <text x="882" y="3" class="tag-text">GAME DEV</text>
+  </g>
+
+  <!-- ۵. AI Workshops -->
+  <g transform="translate(0, 395)">
+    <text x="170" y="5" class="left-label">Education</text>
+    <circle cx="190" cy="0" r="6" class="dot" />
+    
+    <!-- ترکیب آیکون و تیتر در یک خط افقی -->
+    <g transform="translate(215, -14)">
+      <path class="project-icon" transform="scale(0.8)" d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm5.3-3c0 3-2.54 5.1-5.3 5.1S6.7 14 6.7 11H5c0 3.41 2.72 6.23 6 6.72V21h2v-3.28c3.28-.49 6-3.31 6-6.72h-1.7z"/>
+      <text x="26" y="14" class="item-title">AI Workshops &amp; Webinars</text>
+    </g>
+    <text x="215" y="24" class="item-desc">Covering image generation, prompt engineering &amp; practical AI applications</text>
+    
+    <polygon points="840,-12 930,-12 930,10 840,10 828,-1" class="tag-bg" />
+    <text x="882" y="3" class="tag-text">SPEAKER</text>
+  </g>
+</svg>
