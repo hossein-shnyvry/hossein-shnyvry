@@ -1,7 +1,6 @@
 <img src="./gemini-svg.svg" width="100%" alt="Hossein Shnyvry Header" />
 
 
-### 🧰 Languages & Tools
 
 <p align="center">
   <img src="./sidebar.svg" alt="Languages & Tools" />
