@@ -1,25 +1,10 @@
-<svg fill="none" width="980" height="110" viewBox="0 0 980 110" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .title-text { font: 700 22px 'Georgia', 'Times New Roman', serif; fill: #FFFFFF; letter-spacing: 2.5px; text-transform: uppercase; }
-    .header-line { stroke: #30363D; stroke-width: 1.5; }
-    .accent-icon { fill: #D69E2E; }
-
-    /* دکمه‌ها */
-    .btn-bg { fill: #161B22; stroke: #30363D; stroke-width: 1; rx: 6px; transition: 0.2s; }
-    .btn-text { font: 700 12px 'Segoe UI', -apple-system, Roboto, sans-serif; fill: #FFFFFF; letter-spacing: 1.5px; }
-    
-    @media (prefers-color-scheme: light) {
-      .title-text { fill: #1F2328; }
-      .header-line { stroke: #D0D7DE; }
-      .btn-bg { fill: #F6F8FA; stroke: #D0D7DE; }
-      .btn-text { fill: #1F2328; }
-    }
-  </style>
-
-  <!-- ۱. هدر بخش -->
-  <g transform="translate(15, 25)">
-    <!-- آیکون کره زمین/شبکه -->
-    <path class="accent-icon" transform="scale(1.1)" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm6.93 6h-2.95a15.65 15.65 0 0 0-1.38-3.56A8.03 8.03 0 0 1 18.93 8zM12 4.04c.83 1.2 1.48 2.59 1.91 3.96h-3.82c.43-1.37 1.08-2.76 1.91-3.96zM4.26 14a7.82 7.82 0 0 1 0-4h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2H4.26zm.81 2h2.95c.32 1.25.78 2.45 1.38 3.56A8.03 8.03 0 0 1 5.07 16zm2.95-8H5.07a8.03 8.03 0 0 1 3.56-3.56A15.65 15.65 0 0 0 8.02 8zM12 19.96c-.83-1.2-1.48-2.59-1.91-3.96h3.82c-.43 1.37-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2 0-.68.07-1.34.16-2h4.68c.09.66.16 1.32.16 2 0 .68-.07 1.34-.16 2zm1.73 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 0 1-3.56 3.56zM16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38a7.82 7.82 0 0 1 0 4h-3.38z"/>
-    <text x="34" y="19" class="title-text">CONNECT WITH ME</text>
-    <line x1="0" y1="36" x2="950" y2="36" class="header-line" />
-  </g>
+<svg fill="none" width="980" height="40" viewBox="0 0 980 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- آیکون طلایی -->
+  <path fill="#D69E2E" transform="translate(0, 2) scale(0.95)" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm6.93 6h-2.95a15.65 15.65 0 0 0-1.38-3.56A8.03 8.03 0 0 1 18.93 8zM12 4.04c.83 1.2 1.48 2.59 1.91 3.96h-3.82c.43-1.37 1.08-2.76 1.91-3.96zM4.26 14a7.82 7.82 0 0 1 0-4h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2H4.26zm.81 2h2.95c.32 1.25.78 2.45 1.38 3.56A8.03 8.03 0 0 1 5.07 16zm2.95-8H5.07a8.03 8.03 0 0 1 3.56-3.56A15.65 15.65 0 0 0 8.02 8zM12 19.96c-.83-1.2-1.48-2.59-1.91-3.96h3.82c-.43 1.37-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2 0-.68.07-1.34.16-2h4.68c.09.66.16 1.32.16 2 0 .68-.07 1.34-.16 2zm1.73 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 0 1-3.56 3.56zM16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38a7.82 7.82 0 0 1 0 4h-3.38z"/>
+  
+  <!-- متن تیتر -->
+  <text x="32" y="18" fill="#FFFFFF" font-family="Georgia, serif" font-weight="700" font-size="18px" letter-spacing="2px">CONNECT WITH ME</text>
+  
+  <!-- خط نازک جداکننده -->
+  <line x1="0" y1="34" x2="980" y2="34" stroke="#30363D" stroke-width="1" />
+</svg>
