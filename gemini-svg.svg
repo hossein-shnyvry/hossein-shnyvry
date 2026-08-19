@@ -19,15 +19,18 @@
     }
   </style>
 
-  <!-- ۱. نام و نام خانوادگی (تراز شده دقیقاً در مرکز عمودی) -->
+  <!-- ۱. نام و نام خانوادگی -->
   <text x="180" y="92" text-anchor="end" class="name">HOSSEIN</text>
   <text x="180" y="130" text-anchor="end" class="name">SHNYVRY</text>
 
   <!-- ۲. خطوط عمودی جداکننده -->
+  <!-- خط خاکستری اصلی (ارتفاع کامل) -->
   <line x1="200" y1="15" x2="200" y2="165" stroke-width="2" class="line-main" />
-  <line x1="206" y1="22" x2="206" y2="165" stroke-width="5" stroke-linecap="square" class="line-yellow" />
+  
+  <!-- خط زرد/طلایی (ارتفاع نصف‌شده در بخش پایینی) -->
+  <line x1="206" y1="95" x2="206" y2="165" stroke-width="5" stroke-linecap="square" class="line-yellow" />
 
-  <!-- ۳. عناوین و توضیحات (یکرنگ با کلمات کلیدی بولد شده) -->
+  <!-- ۳. عناوین و توضیحات -->
   <text x="225" y="32" class="title">FULL-STACK DEVELOPER | AI ENTHUSIAST | PROJECT MANAGER | ENTREPRENEUR</text>
 
   <text x="225" y="62" class="desc">I’m an independent full-stack developer, project manager, and entrepreneur, building <tspan class="bold">digital platforms and solutions step by step</tspan>.</text>
