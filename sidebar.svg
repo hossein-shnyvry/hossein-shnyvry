@@ -1,15 +1,18 @@
-<svg fill="none" width="980" height="130" viewBox="0 0 980 130" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" width="980" height="175" viewBox="0 0 980 175" xmlns="http://www.w3.org/2000/svg">
   <style>
     /* استایل‌های تم تاریک (پیش‌فرض گیت‌هاب) */
+    .section-title { font: 800 18px 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; fill: #FFFFFF; letter-spacing: 1.5px; text-transform: uppercase; }
     .box { stroke: #30363D; stroke-width: 2; fill: none; }
     .abbr { font: 800 24px 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; fill: #FFFFFF; text-anchor: middle; }
     .label { font: 700 12px 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; fill: #C9D1D9; text-anchor: middle; }
     .star-filled { fill: #D69E2E; font-size: 11px; }
     .star-empty { fill: #30363D; font-size: 11px; }
     .bg-gap { fill: #0D1117; } /* پوشش برای بریدگی پایین کادر */
+    .accent-icon { fill: #D69E2E; }
 
     /* تنظیمات خودکار برای تم روشن (Light Mode) */
     @media (prefers-color-scheme: light) {
+      .section-title { fill: #1F2328; }
       .box { stroke: #D0D7DE; }
       .abbr { fill: #1F2328; }
       .label { fill: #24292F; }
@@ -18,10 +21,18 @@
     }
   </style>
 
-  <!-- تک ردیف: ۸ کارت مهارت متناسب با عرض کل صفحه -->
+  <!-- ۱. هدر بخش (عنوان + آیکون هماهنگ با بنر) -->
+  <g transform="translate(15, 25)">
+    <!-- آیکون وکتور جعبه ابزار (طلايي) -->
+    <path class="accent-icon" d="M17 5h-3V3c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v2H3c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zM8 3h4v2H8V3zm9 14H3V7h14v10z" transform="scale(1.1)"/>
+    <!-- متن عنوان -->
+    <text x="28" y="16" class="section-title">LANGUAGES &amp; TOOLS</text>
+  </g>
 
-  <!-- ۱. Next.js (NX) -->
-  <g transform="translate(10, 5)">
+  <!-- ۲. ردیف کارت‌های مهارت (پخش‌شده در کل عرض) -->
+
+  <!-- Next.js -->
+  <g transform="translate(15, 55)">
     <rect x="0" y="0" width="80" height="80" rx="4" class="box" />
     <text x="40" y="49" class="abbr">NX</text>
     <rect x="8" y="76" width="64" height="8" class="bg-gap" />
@@ -31,8 +42,8 @@
     <text x="40" y="102" class="label">Next.js</text>
   </g>
 
-  <!-- ۲. Node.js (NJ) -->
-  <g transform="translate(131, 5)">
+  <!-- Node.js -->
+  <g transform="translate(140, 55)">
     <rect x="0" y="0" width="80" height="80" rx="4" class="box" />
     <text x="40" y="49" class="abbr">NJ</text>
     <rect x="8" y="76" width="64" height="8" class="bg-gap" />
@@ -42,8 +53,8 @@
     <text x="40" y="102" class="label">Node.js</text>
   </g>
 
-  <!-- ۳. React / RN (RE) -->
-  <g transform="translate(252, 5)">
+  <!-- React / RN -->
+  <g transform="translate(265, 55)">
     <rect x="0" y="0" width="80" height="80" rx="4" class="box" />
     <text x="40" y="49" class="abbr">RE</text>
     <rect x="8" y="76" width="64" height="8" class="bg-gap" />
@@ -53,8 +64,8 @@
     <text x="40" y="102" class="label">React / RN</text>
   </g>
 
-  <!-- ۴. TypeScript (TS) -->
-  <g transform="translate(373, 5)">
+  <!-- TypeScript -->
+  <g transform="translate(390, 55)">
     <rect x="0" y="0" width="80" height="80" rx="4" class="box" />
     <text x="40" y="49" class="abbr">TS</text>
     <rect x="8" y="76" width="64" height="8" class="bg-gap" />
@@ -64,8 +75,8 @@
     <text x="40" y="102" class="label">TypeScript</text>
   </g>
 
-  <!-- ۵. PostgreSQL (PG) -->
-  <g transform="translate(494, 5)">
+  <!-- PostgreSQL -->
+  <g transform="translate(515, 55)">
     <rect x="0" y="0" width="80" height="80" rx="4" class="box" />
     <text x="40" y="49" class="abbr">PG</text>
     <rect x="8" y="76" width="64" height="8" class="bg-gap" />
@@ -75,8 +86,8 @@
     <text x="40" y="102" class="label">PostgreSQL</text>
   </g>
 
-  <!-- ۶. Python (PY) -->
-  <g transform="translate(615, 5)">
+  <!-- Python -->
+  <g transform="translate(640, 55)">
     <rect x="0" y="0" width="80" height="80" rx="4" class="box" />
     <text x="40" y="49" class="abbr">PY</text>
     <rect x="8" y="76" width="64" height="8" class="bg-gap" />
@@ -86,8 +97,8 @@
     <text x="40" y="102" class="label">Python</text>
   </g>
 
-  <!-- ۷. AI / LLM (AI) -->
-  <g transform="translate(736, 5)">
+  <!-- AI / LLMs -->
+  <g transform="translate(765, 55)">
     <rect x="0" y="0" width="80" height="80" rx="4" class="box" />
     <text x="40" y="49" class="abbr">AI</text>
     <rect x="8" y="76" width="64" height="8" class="bg-gap" />
@@ -97,8 +108,8 @@
     <text x="40" y="102" class="label">AI &amp; LLMs</text>
   </g>
 
-  <!-- ۸. Linux / Git (LX) -->
-  <g transform="translate(857, 5)">
+  <!-- Linux & Git -->
+  <g transform="translate(890, 55)">
     <rect x="0" y="0" width="80" height="80" rx="4" class="box" />
     <text x="40" y="49" class="abbr">LX</text>
     <rect x="8" y="76" width="64" height="8" class="bg-gap" />
