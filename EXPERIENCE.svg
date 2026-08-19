@@ -5,14 +5,13 @@
     .month-bg { fill: #D69E2E; rx: 2px; }
     .month-text { font-family: system-ui, -apple-system, sans-serif; font-weight: 800; font-size: 9.5px; fill: #000000; letter-spacing: 0.8px; }
     
-    .fa-title { font-family: Tahoma, 'IRANSans', system-ui, sans-serif; font-weight: 700; font-size: 17px; fill: #FFFFFF; text-anchor: end; direction: rtl; unicode-bidi: embed; }
-    .company { font-family: system-ui, -apple-system, sans-serif; font-weight: 500; font-size: 13px; fill: #8B949E; text-anchor: end; }
-    .fa-desc { font-family: Tahoma, 'IRANSans', system-ui, sans-serif; font-weight: 400; font-size: 12.5px; fill: #C9D1D9; text-anchor: end; direction: rtl; unicode-bidi: embed; }
+    .job-title { font-family: system-ui, -apple-system, sans-serif; font-weight: 700; font-size: 17px; fill: #FFFFFF; }
+    .company { font-family: system-ui, -apple-system, sans-serif; font-weight: 500; font-size: 13px; fill: #8B949E; }
+    .job-desc { font-family: system-ui, -apple-system, sans-serif; font-weight: 400; font-size: 12.5px; fill: #C9D1D9; }
   </style>
 
   <!-- Header with Larger Building Icon -->
   <g transform="translate(10, 15)">
-    <!-- Scaled Up Icon -->
     <path transform="translate(0, -3) scale(1.25)" fill="#D69E2E" d="M19 21V5a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v16h14zM9 5h6v2H9V5zm0 4h6v2H9V9zm0 4h6v2H9v-2zm0 4h2v4H9v-4zm4 0h2v4h-2v-4z"/>
     <text x="38" y="17" class="sec-title">WORK EXPERIENCE</text>
     <line x1="0" y1="35" x2="830" y2="35" stroke="#21262D" stroke-width="1"/>
@@ -29,10 +28,10 @@
     <rect x="50" y="78" width="65" height="15" class="month-bg"/>
     <text x="82.5" y="89" text-anchor="middle" class="month-text">OCTOBER</text>
 
-    <text x="820" y="18" class="fa-title">خرید آنلاین از سوپرمارکت‌ها</text>
-    <text x="820" y="38" class="company">inOffice.ir / E-Commerce Platform</text>
-    <text x="820" y="66" class="fa-desc">طراحی و توسعه پلتفرم هوشمند خرید آنلاین سوپرمارکتی جهت تأمین آسان نیازهای روزمره.</text>
-    <text x="820" y="86" class="fa-desc">شامل خدمات سفیر خرید، دسترسی به سوپرمارکت‌های اطراف، ارسال سریع و پیگیری لحظه‌ای.</text>
+    <text x="140" y="18" class="job-title">Online Supermarket Platform</text>
+    <text x="140" y="38" class="company">inOffice.ir / E-Commerce Platform</text>
+    <text x="140" y="66" class="job-desc">Designed and developed a smart e-grocery platform for seamless daily shopping.</text>
+    <text x="140" y="86" class="job-desc">Features include shopper couriers, local store routing, fast delivery, and real-time tracking.</text>
   </g>
 
   <!-- ITEM 2 -->
@@ -46,10 +45,10 @@
     <rect x="50" y="78" width="75" height="15" class="month-bg"/>
     <text x="87.5" y="89" text-anchor="middle" class="month-text">DECEMBER</text>
 
-    <text x="820" y="18" class="fa-title">مربی هوشمند ARI</text>
-    <text x="820" y="38" class="company">inOffice.ir / AI Fitness &amp; Motion Tracking</text>
-    <text x="820" y="66" class="fa-desc">توسعه سیستم تحلیل حرکتی مبتنی بر هوش مصنوعی با قابلیت پردازش بیش از ۳۰ مفصل بدن.</text>
-    <text x="820" y="86" class="fa-desc">ارائه بازخورد آنی و برنامه‌های تمرینی اختصاصی بدون نیاز به تجهیزات اضافه.</text>
+    <text x="140" y="18" class="job-title">ARI Smart Fitness Trainer</text>
+    <text x="140" y="38" class="company">inOffice.ir / AI Fitness &amp; Motion Tracking</text>
+    <text x="140" y="66" class="job-desc">Engineered an AI-powered motion tracking system processing 30+ body joints.</text>
+    <text x="140" y="86" class="job-desc">Provides real-time posture feedback and personalized workout plans without extra hardware.</text>
   </g>
 
   <!-- ITEM 3 -->
@@ -63,10 +62,10 @@
     <rect x="50" y="78" width="75" height="15" class="month-bg"/>
     <text x="87.5" y="89" text-anchor="middle" class="month-text">AUGUST</text>
 
-    <text x="820" y="18" class="fa-title">پلتفرم جامع مسکن «راهخونه»</text>
-    <text x="820" y="38" class="company">inOffice.ir / Real Estate Platform</text>
-    <text x="820" y="66" class="fa-desc">معماری و پیاده‌سازی سامانه هوشمند املاک و خدمات سکونت شامل جستجوی نقشه-محور،</text>
-    <text x="820" y="86" class="fa-desc">ثبت رایگان ملک، معرفی آژانس‌های معتبر، خرید آنلاین بیمه و خدمات عمومی.</text>
+    <text x="140" y="18" class="job-title">RahKhooneh Real Estate Platform</text>
+    <text x="140" y="38" class="company">inOffice.ir / Real Estate Platform</text>
+    <text x="140" y="66" class="job-desc">Architected an end-to-end housing portal featuring map-based property search,</text>
+    <text x="140" y="86" class="job-desc">free listing registration, agency directories, online insurance, and public services.</text>
   </g>
 
   <!-- ITEM 4 -->
@@ -80,9 +79,9 @@
     <rect x="50" y="78" width="65" height="15" class="month-bg"/>
     <text x="82.5" y="89" text-anchor="middle" class="month-text">JANUARY</text>
 
-    <text x="820" y="18" class="fa-title">امپراتوری استراتژیک: میراث پارسی</text>
-    <text x="820" y="38" class="company">inOffice.ir / Game Development</text>
-    <text x="820" y="66" class="fa-desc">طراحی و توسعه بازی استراتژیک بر اساس تاریخ ایران باستان شامل بازسازی نقشه قلمروها،</text>
-    <text x="820" y="86" class="fa-desc">سیستم دیپلماسی پویا، مدیریت مسیرهای تجاری جاده ابریشم و توسعه شهری.</text>
+    <text x="140" y="18" class="job-title">Strategic Empire: Persian Legacy</text>
+    <text x="140" y="38" class="company">inOffice.ir / Game Development</text>
+    <text x="140" y="66" class="job-desc">Developed a historical strategy game based on ancient Persia with dynamic territory maps,</text>
+    <text x="140" y="86" class="job-desc">interactive diplomacy mechanics, Silk Road trade routes, and city management.</text>
   </g>
 </svg>
