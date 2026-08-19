@@ -13,9 +13,10 @@
 
 
 
+<p align="center">
+  <img src="./EXPERIENCE.svg" alt="Featured Projects" />
+</p>
 
-
----
 
 <p align="center">
   <img src="./CONNECT.svg" alt="Featured Projects" />
