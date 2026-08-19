@@ -7,13 +7,9 @@
 </p>
 
 
-### 📌 Featured Projects
-
-- ✈️ **Flight & Train Booking Platform** – integrated with GDS (Sabre / Amadeus)  
-- 💳 **Crypto Payment Gateway** – Next.js + Node.js + MongoDB, similar to OxaPay  
-- 🤖 **AI Agent with n8n** – travel assistant: Hotels, Flights, Destination Ideas, Trip Support  
-- 🎮 **Story-Based Educational Game for Kids (5–9 y/o)** – inspired by *“Where is My Dad?”*  
-- 🎤 **AI Workshops & Webinars** – covering image generation, prompt engineering, and practical AI applications  
+<p align="center">
+  <img src="./FEATURED-PROJECTS.svg" alt="Featured Projects" />
+</p>
 
 ---
 
