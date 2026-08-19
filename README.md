@@ -20,7 +20,7 @@
 
 <p align="center">
   <a href="./resume.pdf" target="_blank" download="Resume.pdf">
-    <img src="./download-button.svg" alt="Download CV" width="300" />
+    <img src="./download-button.svg" alt="Download CV" width="200" />
   </a>
 </p>
 
