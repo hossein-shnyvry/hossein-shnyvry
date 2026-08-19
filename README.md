@@ -11,6 +11,12 @@
   <img src="./FEATURED-PROJECTS.svg" alt="Featured Projects" />
 </p>
 
+
+
+
+
+---
+
 <p align="center">
   <img src="./CONNECT.svg" alt="Featured Projects" />
 </p>
