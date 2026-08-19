@@ -1,0 +1,36 @@
+<svg fill="none" width="900" height="170" viewBox="0 0 900 170" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .name { font: 800 36px 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; fill: #FFFFFF; letter-spacing: -0.5px; }
+    .title { font: 700 13px 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; fill: #E6EDF3; letter-spacing: 1.5px; text-transform: uppercase; }
+    .desc { font: 400 13px 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; fill: #8B949E; }
+    .bold { font-weight: 700; fill: #F0F6FC; }
+    .line-main { stroke: #30363D; }
+
+    /* تنظیمات خودکار برای تم روشن گیت‌هاب */
+    @media (prefers-color-scheme: light) {
+      .name { fill: #1F2328; }
+      .title { fill: #1F2328; }
+      .desc { fill: #656D76; }
+      .bold { fill: #1F2328; }
+      .line-main { stroke: #1F2328; }
+    }
+  </style>
+
+  <!-- نام و نام خانوادگی (سمت چپ) -->
+  <text x="0" y="45" class="name">HOSSEIN</text>
+  <text x="0" y="82" class="name">SHNYVRY</text>
+
+  <!-- خطوط عمودی جداکننده -->
+  <line x1="190" y1="10" x2="190" y2="155" stroke-width="2.5" class="line-main" />
+  <line x1="194" y1="95" x2="194" y2="155" stroke="#D69E2E" stroke-width="3.5" />
+
+  <!-- عناوین و توضیحات (سمت راست) -->
+  <text x="215" y="25" class="title">FULL-STACK DEVELOPER | AI ENTHUSIAST | PROJECT MANAGER | ENTREPRENEUR</text>
+
+  <text x="215" y="55" class="desc">I’m an independent full-stack developer, project manager, and entrepreneur, building <tspan class="bold">digital platforms and solutions step by step</tspan>.</text>
+  <text x="215" y="75" class="desc">From designing and developing <tspan class="bold">web &amp; mobile applications</tspan> to creating <tspan class="bold">AI-driven platforms, flight booking systems,</tspan></text>
+  <text x="215" y="95" class="desc">and <tspan class="bold">crypto payment gateways</tspan>, I focus on <tspan class="bold">solving real-world problems with technology</tspan>.</text>
+
+  <text x="215" y="130" class="desc">I’m the founder of <tspan class="bold">InOffice</tspan>, a company specialized in <tspan class="bold">web &amp; app development, AI solutions, and digital innovation</tspan>.</text>
+  <text x="215" y="150" class="desc">I also organize <tspan class="bold">AI workshops, webinars, and training sessions</tspan> to help businesses adopt <tspan class="bold">modern technologies efficiently</tspan>.</text>
+</svg>
