@@ -1,4 +1,4 @@
-<svg fill="none" width="980" height="175" viewBox="0 0 980 175" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" width="980" height="160" viewBox="0 0 980 160" xmlns="http://www.w3.org/2000/svg">
   <style>
     /* استایل‌های تم تاریک (پیش‌فرض گیت‌هاب) */
     .section-title { font: 800 18px 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; fill: #FFFFFF; letter-spacing: 1.5px; text-transform: uppercase; }
@@ -21,18 +21,16 @@
     }
   </style>
 
-  <!-- ۱. هدر بخش (عنوان + آیکون هماهنگ با بنر) -->
-  <g transform="translate(15, 25)">
-    <!-- آیکون وکتور جعبه ابزار (طلايي) -->
+  <!-- ۱. هدر بخش -->
+  <g transform="translate(15, 16)">
     <path class="accent-icon" d="M17 5h-3V3c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v2H3c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zM8 3h4v2H8V3zm9 14H3V7h14v10z" transform="scale(1.1)"/>
-    <!-- متن عنوان -->
     <text x="28" y="16" class="section-title">LANGUAGES &amp; TOOLS</text>
   </g>
 
-  <!-- ۲. ردیف کارت‌های مهارت (پخش‌شده در کل عرض) -->
+  <!-- ۲. ردیف کارت‌های مهارت (با فاصله متناسب و استاندارد از هدر) -->
 
   <!-- Next.js -->
-  <g transform="translate(15, 55)">
+  <g transform="translate(15, 52)">
     <rect x="0" y="0" width="80" height="80" rx="4" class="box" />
     <text x="40" y="49" class="abbr">NX</text>
     <rect x="8" y="76" width="64" height="8" class="bg-gap" />
@@ -43,7 +41,7 @@
   </g>
 
   <!-- Node.js -->
-  <g transform="translate(140, 55)">
+  <g transform="translate(140, 52)">
     <rect x="0" y="0" width="80" height="80" rx="4" class="box" />
     <text x="40" y="49" class="abbr">NJ</text>
     <rect x="8" y="76" width="64" height="8" class="bg-gap" />
@@ -54,7 +52,7 @@
   </g>
 
   <!-- React / RN -->
-  <g transform="translate(265, 55)">
+  <g transform="translate(265, 52)">
     <rect x="0" y="0" width="80" height="80" rx="4" class="box" />
     <text x="40" y="49" class="abbr">RE</text>
     <rect x="8" y="76" width="64" height="8" class="bg-gap" />
@@ -65,7 +63,7 @@
   </g>
 
   <!-- TypeScript -->
-  <g transform="translate(390, 55)">
+  <g transform="translate(390, 52)">
     <rect x="0" y="0" width="80" height="80" rx="4" class="box" />
     <text x="40" y="49" class="abbr">TS</text>
     <rect x="8" y="76" width="64" height="8" class="bg-gap" />
@@ -76,7 +74,7 @@
   </g>
 
   <!-- PostgreSQL -->
-  <g transform="translate(515, 55)">
+  <g transform="translate(515, 52)">
     <rect x="0" y="0" width="80" height="80" rx="4" class="box" />
     <text x="40" y="49" class="abbr">PG</text>
     <rect x="8" y="76" width="64" height="8" class="bg-gap" />
@@ -87,7 +85,7 @@
   </g>
 
   <!-- Python -->
-  <g transform="translate(640, 55)">
+  <g transform="translate(640, 52)">
     <rect x="0" y="0" width="80" height="80" rx="4" class="box" />
     <text x="40" y="49" class="abbr">PY</text>
     <rect x="8" y="76" width="64" height="8" class="bg-gap" />
@@ -98,7 +96,7 @@
   </g>
 
   <!-- AI / LLMs -->
-  <g transform="translate(765, 55)">
+  <g transform="translate(765, 52)">
     <rect x="0" y="0" width="80" height="80" rx="4" class="box" />
     <text x="40" y="49" class="abbr">AI</text>
     <rect x="8" y="76" width="64" height="8" class="bg-gap" />
@@ -109,7 +107,7 @@
   </g>
 
   <!-- Linux & Git -->
-  <g transform="translate(890, 55)">
+  <g transform="translate(890, 52)">
     <rect x="0" y="0" width="80" height="80" rx="4" class="box" />
     <text x="40" y="49" class="abbr">LX</text>
     <rect x="8" y="76" width="64" height="8" class="bg-gap" />
