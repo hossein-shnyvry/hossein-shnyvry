@@ -1,41 +1,42 @@
-<svg fill="none" width="900" height="210" viewBox="0 0 900 210" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" width="980" height="180" viewBox="0 0 980 180" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .name { font: 800 38px 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; fill: #FFFFFF; letter-spacing: 0px; }
-    .title { font: 700 13px 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; fill: #E6EDF3; letter-spacing: 2px; text-transform: uppercase; }
-    .desc { font: 400 13px 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; fill: #8B949E; }
-    .bold { font-weight: 700; fill: #F0F6FC; }
+    /* استایل‌های تم تاریک (پیش‌فرض) */
+    .name { font: 800 36px 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; fill: #FFFFFF; }
+    .title { font: 700 13px 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; fill: #F0F6FC; letter-spacing: 1.5px; text-transform: uppercase; }
+    .desc { font: 400 13px 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; fill: #C9D1D9; }
+    .bold { font-weight: 700; fill: #FFFFFF; }
     .line-main { stroke: #484F58; }
+    .line-yellow { stroke: #D69E2E; }
 
-    /* تنظیمات خودکار برای تم روشن گیت‌هاب */
+    /* تنظیمات خودکار برای تم روشن (Light Mode) */
     @media (prefers-color-scheme: light) {
       .name { fill: #1F2328; }
       .title { fill: #1F2328; }
-      .desc { fill: #656D76; }
-      .bold { fill: #1F2328; }
-      .line-main { stroke: #2D3748; }
+      .desc { fill: #57606A; }
+      .bold { fill: #000000; }
+      .line-main { stroke: #24292F; }
+      .line-yellow { stroke: #D69E2E; }
     }
   </style>
 
-  <!-- نام و نام خانوادگی (سمت چپ، راست‌چین و هم‌تراز با تصویر) -->
-  <text x="190" y="118" text-anchor="end" class="name">HOSSEIN</text>
-  <text x="190" y="156" text-anchor="end" class="name">SHNYVRY</text>
+  <!-- ۱. نام و نام خانوادگی (سمت چپ) -->
+  <text x="180" y="80" text-anchor="end" class="name">HOSSEIN</text>
+  <text x="180" y="118" text-anchor="end" class="name">SHNYVRY</text>
 
-  <!-- خطوط عمودی جداکننده -->
-  <!-- ۱. خط باریک تیره (ارتفاع کامل از بالا تا پایین) -->
-  <line x1="210" y1="20" x2="210" y2="190" stroke-width="2" class="line-main" />
+  <!-- ۲. خطوط عمودی جداکننده -->
+  <!-- خط خاکستری اصلی (ارتفاع کامل) -->
+  <line x1="200" y1="15" x2="200" y2="165" stroke-width="2" class="line-main" />
   
-  <!-- ۲. خط زرد/طلايي ضخیم (هم‌سطح با شروع عنوان تا پایین) -->
-  <line x1="217" y1="76" x2="217" y2="190" stroke="#D69E2E" stroke-width="6.5" stroke-linecap="square" />
+  <!-- خط زرد/طلایی (شروع از بالای عنوان تا پایین) -->
+  <line x1="206" y1="22" x2="206" y2="165" stroke-width="5" stroke-linecap="square" class="line-yellow" />
 
-  <!-- عناوین و توضیحات (سمت راست) -->
-  <!-- عنوان دقیقاً هم‌تراز با بالای خط زرد -->
-  <text x="238" y="88" class="title">FULL-STACK DEVELOPER | AI ENTHUSIAST | PROJECT MANAGER | ENTREPRENEUR</text>
+  <!-- ۳. عناوین و توضیحات (سمت راست) -->
+  <text x="225" y="32" class="title">FULL-STACK DEVELOPER | AI ENTHUSIAST | PROJECT MANAGER | ENTREPRENEUR</text>
 
-  <!-- توضیحات -->
-  <text x="238" y="122" class="desc">I’m an independent full-stack developer, project manager, and entrepreneur, building <tspan class="bold">digital platforms and solutions step by step</tspan>.</text>
-  <text x="238" y="142" class="desc">From designing and developing <tspan class="bold">web &amp; mobile applications</tspan> to creating <tspan class="bold">AI-driven platforms, flight booking systems,</tspan></text>
-  <text x="238" y="162" class="desc">and <tspan class="bold">crypto payment gateways</tspan>, I focus on <tspan class="bold">solving real-world problems with technology</tspan>.</text>
+  <text x="225" y="62" class="desc">I’m an independent full-stack developer, project manager, and entrepreneur, building <tspan class="bold">digital platforms and solutions step by step</tspan>.</text>
+  <text x="225" y="82" class="desc">From designing and developing <tspan class="bold">web &amp; mobile applications</tspan> to creating <tspan class="bold">AI-driven platforms, flight booking systems,</tspan></text>
+  <text x="225" y="102" class="desc">and <tspan class="bold">crypto payment gateways</tspan>, I focus on <tspan class="bold">solving real-world problems with technology</tspan>.</text>
 
-  <text x="238" y="188" class="desc">I’m the founder of <tspan class="bold">InOffice</tspan>, a company specialized in <tspan class="bold">web &amp; app development, AI solutions, and digital innovation</tspan>.</text>
-  <text x="238" y="206" class="desc">I also organize <tspan class="bold">AI workshops, webinars, and training sessions</tspan> to help businesses adopt <tspan class="bold">modern technologies efficiently</tspan>.</text>
+  <text x="225" y="135" class="desc">I’m the founder of <tspan class="bold">InOffice</tspan>, a company specialized in <tspan class="bold">web &amp; app development, AI solutions, and digital innovation</tspan>.</text>
+  <text x="225" y="155" class="desc">I also organize <tspan class="bold">AI workshops, webinars, and training sessions</tspan> to help businesses adopt <tspan class="bold">modern technologies efficiently</tspan>.</text>
 </svg>
