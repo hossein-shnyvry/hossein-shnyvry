@@ -1,14 +1,3 @@
-# 🚀 Hossein Shnyvry
-
-**`Full-Stack Developer | AI Enthusiast | Project Manager | Entrepreneur`**
-
-I’m an independent full-stack developer, project manager, and entrepreneur, building **digital platforms and solutions step by step**.  
-From designing and developing **web & mobile applications** to creating **AI-driven platforms, flight booking systems, and crypto payment gateways**, I focus on **solving real-world problems with technology**.  
-
-I’m the founder of **InOffice**, a company specialized in **web & app development, AI solutions, and digital innovation**.  
-I also organize **AI workshops, webinars, and training sessions** to help businesses and individuals adopt **modern technologies efficiently**.
-
----
 <img src="./gemini-svg.svg" width="100%" alt="Hossein Shnyvry Header" />
 
 ### 🧰 Languages & Tools
