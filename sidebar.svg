@@ -1,0 +1,14 @@
+<svg fill="none" width="195" height="150" viewBox="0 0 195 150" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .name { font: 800 34px 'Segoe UI', sans-serif; fill: #FFFFFF; }
+    .line-main { stroke: #30363D; }
+    @media (prefers-color-scheme: light) {
+      .name { fill: #1F2328; }
+      .line-main { stroke: #1F2328; }
+    }
+  </style>
+  <text x="0" y="45" class="name">HOSSEIN</text>
+  <text x="0" y="80" class="name">SHNYVRY</text>
+  <line x1="185" y1="5" x2="185" y2="140" stroke-width="2.5" class="line-main" />
+  <line x1="189" y1="85" x2="189" y2="140" stroke="#D69E2E" stroke-width="3.5" />
+</svg>
