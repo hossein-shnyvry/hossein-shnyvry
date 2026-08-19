@@ -1,0 +1,84 @@
+<svg fill="none" width="800" height="640" viewBox="0 0 800 640" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .header { font-family: system-ui, -apple-system, sans-serif; font-weight: 800; font-size: 22px; fill: #FFFFFF; letter-spacing: 1.5px; }
+    .year { font-family: system-ui, -apple-system, sans-serif; font-weight: 900; font-size: 24px; fill: #FFFFFF; }
+    .month-text { font-family: system-ui, -apple-system, sans-serif; font-weight: 800; font-size: 10px; fill: #000000; letter-spacing: 1px; }
+    .job-title { font-family: system-ui, -apple-system, sans-serif; font-weight: 700; font-size: 18px; fill: #FFFFFF; }
+    .company { font-family: system-ui, -apple-system, sans-serif; font-weight: 500; font-size: 13px; fill: #8B949E; }
+    .desc { font-family: system-ui, -apple-system, sans-serif; font-weight: 400; font-size: 13px; fill: #C9D1D9; }
+  </style>
+
+  <!-- Header -->
+  <g transform="translate(10, 20)">
+    <path fill="#FFFFFF" d="M10 5V3a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2h5a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h5zm2-2v2h4V3h-4z"/>
+    <text x="35" y="17" class="header">WORK EXPERIENCE</text>
+  </g>
+
+  <!-- ITEM 1 -->
+  <g transform="translate(10, 70)">
+    <path d="M 45 16 L 20 16 L 20 84 L 45 84" stroke="#FFFFFF" stroke-width="2.5" fill="none"/>
+    <text x="55" y="24" class="year">2024</text>
+    <rect x="55" y="31" width="70" height="16" fill="#D69E2E" rx="1"/>
+    <text x="90" y="43" text-anchor="middle" class="month-text">MAY</text>
+
+    <text x="55" y="80" class="year">2023</text>
+    <rect x="55" y="87" width="70" height="16" fill="#D69E2E" rx="1"/>
+    <text x="90" y="99" text-anchor="middle" class="month-text">OCTOBER</text>
+
+    <text x="150" y="24" class="job-title">خرید آنلاین از سوپرمارکت‌ها</text>
+    <text x="150" y="46" class="company">inOffice.ir / E-Commerce Platform</text>
+    <text x="150" y="75" class="desc">طراحی و توسعه پلتفرم هوشمند خرید آنلاین سوپرمارکتی جهت تأمین آسان نیازهای روزمره.</text>
+    <text x="150" y="95" class="desc">شامل خدمات سفیر خرید، دسترسی به سوپرمارکت‌های اطراف، ارسال سریع و پیگیری لحظه‌ای.</text>
+  </g>
+
+  <!-- ITEM 2 -->
+  <g transform="translate(10, 210)">
+    <path d="M 45 16 L 20 16 L 20 84 L 45 84" stroke="#FFFFFF" stroke-width="2.5" fill="none"/>
+    <text x="55" y="24" class="year">2023</text>
+    <rect x="55" y="31" width="80" height="16" fill="#D69E2E" rx="1"/>
+    <text x="95" y="43" text-anchor="middle" class="month-text">SEPTEMBER</text>
+
+    <text x="55" y="80" class="year">2022</text>
+    <rect x="55" y="87" width="80" height="16" fill="#D69E2E" rx="1"/>
+    <text x="95" y="99" text-anchor="middle" class="month-text">DECEMBER</text>
+
+    <text x="150" y="24" class="job-title">مربی هوشمند ARI</text>
+    <text x="150" y="46" class="company">inOffice.ir / AI Fitness &amp; Motion Tracking</text>
+    <text x="150" y="75" class="desc">توسعه سیستم تحلیل حرکتی مبتنی بر هوش مصنوعی با قابلیت پردازش بیش از ۳۰ مفصل بدن.</text>
+    <text x="150" y="95" class="desc">ارائه بازخورد آنی و برنامه‌های تمرینی اختصاصی بدون نیاز به تجهیزات اضافه.</text>
+  </g>
+
+  <!-- ITEM 3 -->
+  <g transform="translate(10, 350)">
+    <path d="M 45 16 L 20 16 L 20 84 L 45 84" stroke="#FFFFFF" stroke-width="2.5" fill="none"/>
+    <text x="55" y="24" class="year">2022</text>
+    <rect x="55" y="31" width="80" height="16" fill="#D69E2E" rx="1"/>
+    <text x="95" y="43" text-anchor="middle" class="month-text">NOVEMBER</text>
+
+    <text x="55" y="80" class="year">2021</text>
+    <rect x="55" y="87" width="80" height="16" fill="#D69E2E" rx="1"/>
+    <text x="95" y="99" text-anchor="middle" class="month-text">AUGUST</text>
+
+    <text x="150" y="24" class="job-title">پلتفرم جامع مسکن «راهخونه»</text>
+    <text x="150" y="46" class="company">inOffice.ir / Real Estate Platform</text>
+    <text x="150" y="75" class="desc">معماری و پیاده‌سازی سامانه هوشمند املاک و خدمات سکونت شامل جستجوی نقشه-محور،</text>
+    <text x="150" y="95" class="desc">ثبت رایگان ملک، معرفی آژانس‌های معتبر، خرید آنلاین بیمه و خدمات عمومی.</text>
+  </g>
+
+  <!-- ITEM 4 -->
+  <g transform="translate(10, 490)">
+    <path d="M 45 16 L 20 16 L 20 84 L 45 84" stroke="#FFFFFF" stroke-width="2.5" fill="none"/>
+    <text x="55" y="24" class="year">2021</text>
+    <rect x="55" y="31" width="70" height="16" fill="#D69E2E" rx="1"/>
+    <text x="90" y="43" text-anchor="middle" class="month-text">JULY</text>
+
+    <text x="55" y="80" class="year">2020</text>
+    <rect x="55" y="87" width="70" height="16" fill="#D69E2E" rx="1"/>
+    <text x="90" y="99" text-anchor="middle" class="month-text">JANUARY</text>
+
+    <text x="150" y="24" class="job-title">امپراتوری استراتژیک: میراث پارسی</text>
+    <text x="150" y="46" class="company">inOffice.ir / Game Development</text>
+    <text x="150" y="75" class="desc">طراحی و توسعه بازی استراتژیک بر اساس تاریخ ایران باستان شامل بازسازی نقشه قلمروها،</text>
+    <text x="150" y="95" class="desc">سیستم دیپلماسی پویا، مدیریت مسیرهای تجاری جاده ابریشم و توسعه شهری.</text>
+  </g>
+</svg>
