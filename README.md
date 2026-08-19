@@ -5,15 +5,7 @@
 <p align="center">
   <img src="./sidebar.svg" alt="Languages & Tools" />
 </p>
----
 
-### 📊 GitHub Metrics & Stats
-
-![Metrics](./github-metrics.svg)
-
-![Hossein's GitHub stats](https://github-readme-stats.vercel.app/api?username=hosseinshnyvry&show_icons=true&theme=gruvbox)
-
----
 
 ### 📌 Featured Projects
 
