@@ -9,7 +9,7 @@ I’m the founder of **InOffice**, a company specialized in **web & app developm
 I also organize **AI workshops, webinars, and training sessions** to help businesses and individuals adopt **modern technologies efficiently**.
 
 ---
-<img src="./header.svg" width="100%" alt="Hossein Shnyvry Header" />
+<img src="./gemini-svg.svg" width="100%" alt="Hossein Shnyvry Header" />
 
 ### 🧰 Languages & Tools
 
